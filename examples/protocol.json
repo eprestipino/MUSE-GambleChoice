@@ -1,0 +1,51 @@
+{
+  "SchemaVersion": 2,
+  "Purpose": "Demonstration",
+  "Seed": 81273,
+  "ChoiceCount": 2,
+  "Trials": 12,
+  "Renderer": "Bar",
+  "AmountRenderer": "TokenSlots",
+  "PhysicalReward": false,
+  "ShufflePositions": false,
+  "PaletteMode": "Fixed",
+  "Design": {
+    "Order": "Sequential",
+    "PositionPolicy": "Fixed",
+    "PalettePolicy": "Configured",
+    "PracticeTrials": 0
+  },
+  "Ledger": {
+    "InitialBalance": 24,
+    "Scope": "Block",
+    "InsufficientFunds": "Stop",
+    "Settlement": "VirtualEndowment"
+  },
+  "Options": [
+    {
+      "Id": "sure",
+      "Outcomes": [
+        {
+          "Id": "three",
+          "TokenDelta": 3,
+          "Probability": 1.0
+        }
+      ]
+    },
+    {
+      "Id": "risky",
+      "Outcomes": [
+        {
+          "Id": "zero",
+          "TokenDelta": 0,
+          "Probability": 0.5
+        },
+        {
+          "Id": "six",
+          "TokenDelta": 6,
+          "Probability": 0.5
+        }
+      ]
+    }
+  ]
+}

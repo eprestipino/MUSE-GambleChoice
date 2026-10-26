@@ -1,0 +1,17 @@
+OrderedDictionary<string,string>	TaskMappings	{GambleChoice:GambleChoice}
+Dictionary<string,string>	TaskIcons	{GambleChoice:GambleChoice}
+string	ContextExternalFilePath	"__CONTEXTS__"
+string	TaskIconsFolderPath	"__TASK_ICONS__"
+bool	GuidedTaskSelection	true
+bool	EventCodesActive	FALSE
+bool	IsHuman	true
+bool	PlayBackgroundMusic	FALSE
+float	MaxStimLoadingDuration	7
+float	TaskResultsDuration	0
+bool	SyncBoxActive	false
+string	SerialPortAddress	"\\\\.\\COM3"
+int	SerialPortSpeed	115200
+List<string>	SyncBoxInitCommands	{"INI", "ECH 0", "TIM 0", "LIN 33", "LVB 0", "NSU 2", "NPD 10", "NHD 2", "NDW 16", "CAO 20000", "TBP 1000", "TBW 50", "TIB 1", "LOG 1"}
+int	SplitBytes	2
+bool	EyeTrackerActive	FALSE
+string	SelectionType	"MouseButton0Click"

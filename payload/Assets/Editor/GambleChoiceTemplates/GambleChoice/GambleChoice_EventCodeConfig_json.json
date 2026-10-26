@@ -1,0 +1,34 @@
+{
+  "OfferVisibleSoftware": {
+    "Value": 12360,
+    "Description": "GambleChoice OfferVisibleSoftware"
+  },
+  "ChoiceCommitted": {
+    "Value": 12361,
+    "Description": "GambleChoice ChoiceCommitted"
+  },
+  "OutcomeResolved": {
+    "Value": 12362,
+    "Description": "GambleChoice OutcomeResolved"
+  },
+  "RevealVisibleSoftware": {
+    "Value": 12363,
+    "Description": "GambleChoice RevealVisibleSoftware"
+  },
+  "RewardRequested": {
+    "Value": 12364,
+    "Description": "GambleChoice RewardRequested"
+  },
+  "RewardSettled": {
+    "Value": 12365,
+    "Description": "GambleChoice RewardSettled"
+  },
+  "ZeroReward": {
+    "Value": 12366,
+    "Description": "GambleChoice ZeroReward"
+  },
+  "TrialFinalized": {
+    "Value": 12367,
+    "Description": "GambleChoice TrialFinalized"
+  }
+}
