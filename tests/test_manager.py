@@ -17,7 +17,7 @@ class ManagerTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
         self.project = self.root / 'a differently named fork/Unity Project'
         self.module = self.root / 'module'
         self.write('ProjectSettings/ProjectVersion.txt', 'm_EditorVersion: 2020.3.40f1\n')
